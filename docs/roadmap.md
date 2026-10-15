@@ -1,6 +1,6 @@
 # Roadmap: Campus Doubt Desk
 
-Based on `prd.md`. We build in 4 small phases.
+Based on `prd.md`. We build in 5 small phases (Phase 5 was added after v1 testing).
 
 **Rule:** Finish one phase fully before starting the next. If something breaks, we know which phase caused it.
 
@@ -70,9 +70,27 @@ Make it easy to start and easy to measure.
 
 ---
 
+## Phase 5: Help when the bot doesn't know
+
+Added after v1 testing (see the new requirement in `prd.md`). Students who got "I don't know" had nowhere to go next.
+
+- [ ] When the bot says "I don't know", also show the office phone, email, and timings (from the handbook's contacts page)
+- [ ] Add an "Ask the office" button under that answer
+- [ ] Make the button open an email to the office with the student's question already typed in
+- [ ] Save every unanswered question with the date and time (no name or personal data)
+- [ ] Make a simple list where office staff and the PM can see these questions
+- [ ] Test with 5 questions that are not in the handbook
+
+**Done when:**
+- All 5 test questions show the office contact and the "Ask the office" button
+- The button opens an email with the question already filled in
+- All 5 questions appear in the unanswered list with date and time, and no personal data is saved
+
+---
+
 ## Not in this roadmap
 
-These are "Later" in the PRD. We pick them up only after Phase 4 is done:
+These are "Later" in the PRD. We pick them up only after Phase 5 is done:
 
 - Questions in Hindi or Hinglish
 - A WhatsApp version

@@ -66,6 +66,16 @@ Help students get the correct handbook answer in seconds, without going to the o
 - A WhatsApp version.
 - Easy update when a new handbook comes out.
 
+**New requirement (Must, added after v1 testing)**
+
+*Why:* The v1 logs showed students asking questions that are not in the handbook. The bot said "I don't know", but the student had nowhere to go next.
+
+- When the bot can't find an answer, show:
+  - the office contact: phone, email, and office timings (from the handbook's Important Contacts page)
+  - an **"Ask the office"** button that opens an email to the office with the student's question already filled in
+- Keep a log of unanswered questions. Save only the question and the date/time. No name, roll number, or other personal data.
+- Office staff and the PM can see the list of unanswered questions, and review it once a week.
+
 ## 7. Non-Goals (we will NOT build these)
 
 - No login or student accounts.
