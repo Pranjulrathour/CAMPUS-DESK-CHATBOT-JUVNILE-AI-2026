@@ -1,0 +1,32 @@
+{
+  "handbook": [
+    {"q": "What is the minimum attendance?", "pages": [9], "expect": ["75"]},
+    {"q": "How much attendance can be condoned for medical reasons?", "pages": [9, 10], "expect": ["10"]},
+    {"q": "What happens if my attendance is below 65%?", "pages": [9], "expect": ["re-register", "register"]},
+    {"q": "When are the odd semester fees due?", "pages": [15, 5], "expect": ["25 july", "july 25"]},
+    {"q": "What is the late fee for paying fees after the due date?", "pages": [15], "expect": ["100"]},
+    {"q": "How do I apply for re-evaluation and what is the fee?", "pages": [13], "expect": ["750"]},
+    {"q": "What is the deadline to apply for a make-up exam?", "pages": [13], "expect": ["3 days", "three days"]},
+    {"q": "What is the fee for a supplementary exam?", "pages": [13], "expect": ["1,000", "1000"]},
+    {"q": "What marks do I need to pass a course?", "pages": [11], "expect": ["40"]},
+    {"q": "When do admit cards become available?", "pages": [11], "expect": ["three days", "3 days"]},
+    {"q": "How do I convert CGPA to percentage?", "pages": [12], "expect": ["9.5"]},
+    {"q": "What are the library timings on Saturday?", "pages": [18], "expect": ["9:00", "9 am", "5:00", "5 pm"]},
+    {"q": "How many books can an undergraduate borrow from the library?", "pages": [18], "expect": ["4", "four"]},
+    {"q": "What is the fine for returning a library book late?", "pages": [18], "expect": ["2"]},
+    {"q": "How much does a duplicate ID card cost?", "pages": [6], "expect": ["300"]},
+    {"q": "What CGPA do I need for a merit scholarship?", "pages": [16], "expect": ["8.5"]},
+    {"q": "What is the last date to change an elective in the odd semester?", "pages": [8, 5], "expect": ["14 august", "august 14"]},
+    {"q": "How do I apply for on-duty leave?", "pages": [23, 10], "expect": ["3 working days", "three working days", "sunportal"]},
+    {"q": "What is the minimum CGPA to sit for placements?", "pages": [24], "expect": ["6.0", "6"]},
+    {"q": "What are the canteen timings?", "pages": [21], "expect": ["8:00", "8 am", "7:00", "7 pm"]}
+  ],
+  "not_in_handbook": [
+    "What is the canteen menu today?",
+    "What time does the hostel gate close at night?",
+    "Who is the principal of the college?",
+    "When is the next parent-teacher meeting?",
+    "What rank do I need in the entrance exam to get admission to B.Tech?"
+  ],
+  "personal": "What are my marks?"
+}
